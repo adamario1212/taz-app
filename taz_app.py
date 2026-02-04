@@ -15,7 +15,7 @@ st.markdown("""
 # --- DATA LOADING ---
 @st.cache_data
 def load_data():
-    file_path = "C:\\code\\taz.csv"
+    file_path = "taz.csv"
     df = pd.read_csv(file_path)
     
     # Data Cleaning
